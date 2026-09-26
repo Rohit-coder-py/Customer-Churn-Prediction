@@ -1,9 +1,3 @@
-"""
-Turns a single raw customer record (the kind of values a person picks in the
-Streamlit form) into the exact 30-column encoded row the model expects -
-same encoding the notebook uses: LabelEncoder-style binary mapping for the
-yes/no columns, one-hot (drop_first) for the multi-category columns.
-"""
 
 import pandas as pd
 
